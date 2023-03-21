@@ -1,0 +1,106 @@
+.banner {
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+/* #parallxWrapper {
+  margin: auto;
+  height: 540px;
+  width: 1000px;
+}
+ */
+.front-background {
+  background-image
+}
+.parallxLayerLogo1 {
+  width: 300px;
+  height: 225px;
+  margin-top: 50px;
+  margin-left: 50px;
+  background-image: url("assets/img/sn.png");
+  position: absolute;
+  left: 1200px;
+  bottom: 0px;
+  -webkit-transform: translateZ(90px);
+  -webkit-transition: all 0.2s;
+  transform: translateZ(90px);
+  transition: all 0.2s;
+}
+.parallxLayerLogo {
+  width: 300px;
+  height: 225px;
+  margin-top: 50px;
+  margin-left: 50px;
+  background-image: url("assets/img/sn.png");
+  position: absolute;
+  -webkit-transform: translateZ(90px);
+  -webkit-transition: all 0.2s;
+  transform: translateZ(90px);
+  transition: all 0.2s;
+}
+
+.parallxLayer:hover {
+  -webkit-transform: scale(1.05);
+  -webkit-transform: translateZ(30px);
+  transform: scale(1.05);
+  transform: translateZ(30px);
+  cursor: pointer;
+}
+.front-background {
+  background-image: url("assets\img\sn.png")
+}
+.pe-3 {
+  padding-top: 26px;
+}
+@media only screen and (max-width: 2560px) {
+  .pe-2 {
+    padding-top:26px;
+  }
+}
+@media only screen and (max-width: 1440px) {
+  .pe-1 {
+    padding-top:1px;
+  }
+  .pe-2 {
+    padding-top:29px;
+  }
+  .pe-3 {
+    padding-top:29px;
+  }
+  .pe-4 {
+    padding-top:1px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .pe-2 {
+    padding-top:12px;
+  }
+  .pe-3 {
+    padding-top:2px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .pe-3 {
+    padding-top:2px;
+  }
+}
+
+/* .parallxLayerRStar {
+  width: 100px;
+  height: 90px;
+  margin-left: 880px;
+  margin-top: 450px;
+  float: right;
+  background-image: url("assets/img/snd.png");
+  position: absolute;
+  -webkit-transform: translateZ(20px);
+  transform: translateZ(20px);
+} */
+/* .parallxLayerShooter {
+  width: 1000px;
+  height: 694px;
+  float: right;
+  background-image: url("https://i.imgur.com/YWCpfik.png");
+  position: absolute;
+  -webkit-transform: translateZ(50px);
+  transform: translateZ(50px);
+} */
